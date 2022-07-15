@@ -1,11 +1,49 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
+#body {
+  width: 400px;
+  height: 240px;
+  background-color: gray;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#screen {
+  width: 360px;
+  height: 40px;
+  background-color: black;
+  border-radius: 3px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+#text-area {
+  width: 330px;
+  height: 20px;
+  margin-top: 10px;
+  padding: 0 5px;
+  background-color: darkgray;
+  border-radius: 0px;
+  text-align: end;
+}
+
 #signs {
   width: 360px;
   height: 160px;
   display: flex;
+  margin: 10px auto 0;
   align-content: center;
   justify-content: center;
   flex-wrap: wrap;
   background-color: darkgray;
+  text-align: center;
+  line-height: 30px;
 }
 
 .button {
@@ -17,7 +55,11 @@
   border-radius: 3px;
 }
 
+.button:hover {
+  border-color: white;
+}
+
 .double {
-  background-color: blue;
+  background-color: rgb(95, 95, 238);
   width: 108px;
 }
